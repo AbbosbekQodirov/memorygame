@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="loader">
+      <img src="https://cdn.dribbble.com/users/1698559/screenshots/3790348/___.gif" alt="">
+    </div>
+    <div class="wrapper">
+      <div class="stats-container">
+        <div id="moves-count"></div>
+        <div id="time"></div>
+      </div>
+      <div class="game-container"></div>
+      <button id="stop" class="hide">Stop Game</button>
+    </div>
+    <div class="controls-container">
+      <p id="result"></p>
+      <select name="" id="select">
+        <option value="animal">animal</option>
+        <option value="furniture">furniture</option>
+        <option value="computer">computer</option>
+        <option value="cars">cars</option>
+      </select>
+      <button id="start">Start Game</button>
+    </div>
+    <!-- Script -->
+    <script src="script/script.js"></script>
+  </body>
+</html>
